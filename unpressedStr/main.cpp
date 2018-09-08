@@ -3,7 +3,13 @@
 #include <string>
 #include <vector>
 #include <algorithm>
-
+//将字符串a2b3输出为aabbb
+/*
+ * 字符后面的数字表示前面的字符串重复的次数
+ * 以数字升序排列输出如b3a2 --- aabbb
+ * 数字相同则以ASII码字符串输出顺序
+ * abc3cb2a4 --- cbcb abcabcabc aaaa
+ */
 using namespace std;
 
 struct strStruct
